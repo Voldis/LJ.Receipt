@@ -33,9 +33,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\myreceipt_icon_original.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -92,6 +96,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LJ.Receipt.Base\LJ.Receipt.Base.csproj">
+      <Project>{3f1213b8-66b0-4187-8aca-32dd243cefff}</Project>
+      <Name>LJ.Receipt.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyReceipt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myreceipt_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myreceipt_icon_original.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
