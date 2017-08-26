@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace LJ.Receipt.Base.ViewModels
 {
-    public class Class1
+    /// <summary>
+    /// Main window view model.
+    /// </summary>
+    public class MainWindowVM
     {
     }
 }
