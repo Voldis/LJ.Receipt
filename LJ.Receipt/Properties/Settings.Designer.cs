@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LJ.Receipt.UI.Properties
+namespace LJ.Receipt.Properties
 {
 
 

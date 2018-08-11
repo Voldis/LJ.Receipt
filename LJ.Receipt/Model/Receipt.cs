@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LJ.Receipt.Base.ViewModels
+namespace LJ.Receipt.Model
 {
-    /// <summary>
-    /// Main window view model.
-    /// </summary>
-    public class MainWindowVM
+    public class Receipt
     {
+
     }
 }

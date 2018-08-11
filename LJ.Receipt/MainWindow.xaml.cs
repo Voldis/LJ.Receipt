@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LJ.Receipt.UI
+namespace LJ.Receipt
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace LJ.Receipt.UI
+namespace LJ.Receipt
 {
     /// <summary>
     /// Interaction logic for App.xaml
